@@ -5,6 +5,8 @@
 
 [![arXiv](https://img.shields.io/badge/arXiv-2509.22727-b31b1b.svg)](https://arxiv.org/abs/2509.22727)
 [![Hugging Face](https://img.shields.io/badge/🤗%20HuggingFace-DiaMoETTS-yellow)](https://huggingface.co/RICHARD12369/DiaMoE_TTS)
+[![ModelScope](https://img.shields.io/badge/🔮%20ModelScope-DiaMoETTS-purple)](https://www.modelscope.cn/models/giantailab/DiaMoE_TTS/summary)
+
 
 </div>
 
@@ -93,7 +95,7 @@ See [ipa_frontend](./dialect_frontend/README.md) for more details.
 ## Datasets 📚
 > We utilize the [Common Voice Cantonese dataset](https://arxiv.org/abs/1912.06670), the [Emilia Mandarin dataset](https://arxiv.org/abs/2407.05361) and dialectal data     
 > from the [KeSpeech corpus](https://openreview.net/forum?id=b3Zoeq2sCLq) and a open-source [Sourthern Min dataset](https://sutian.moe.edu.tw/zh-hant/siongkuantsuguan/) for training.  
-> We release the frontend of the [🤗open-source dataset IPA](https://huggingface.co/datasets/RICHARD12369/DiaMoE-TTS_IPA_Trainingset)
+> We release the frontend of the [🤗open-source dataset IPA](https://huggingface.co/datasets/RICHARD12369/DiaMoE-TTS_IPA_Trainingset),[🔮open-source dataset IPA](https://www.modelscope.cn/datasets/giantailab/DiaMoE-TTS_IPA_Trainingset)
 ---
 
 ## Pretrained Models 🧪
