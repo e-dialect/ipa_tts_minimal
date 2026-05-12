@@ -164,7 +164,6 @@ class MoeLayer(nn.Module):
         # For each sample, select the top-k experts (typically set to 1)
         topk_weights, topk_indices = torch.topk(gate_logits, self.num_experts_per_tok, dim=1)  # [B, K]
         topk_weights = F.softmax(topk_weights, dim=1, dtype=torch.float).to(inputs_raw.dtype)
-        print("Selected experts per sample:", topk_indices.squeeze().tolist())
         # init output
         results = torch.zeros_like(inputs_raw)
 

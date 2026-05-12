@@ -159,10 +159,10 @@ def initialize_asr_pipeline(device: str = device, dtype=None):
             else torch.float32
         )
     global asr_pipe
+    asr_model = os.environ.get("DIAMOE_ASR_MODEL", "openai/whisper-large-v3-turbo")
     asr_pipe = pipeline(
         "automatic-speech-recognition",
-        #model="openai/whisper-large-v3-turbo",
-        model='/user-fs/chenzihao/wangzixin/f5_dialect/ckpts/new_basic_ckpt/whisper-large-v3-turbo',
+        model=asr_model,
         torch_dtype=dtype,
         device=device,
     )
